@@ -3,4 +3,5 @@ framework: netcoreapp2.0
 
 github fsprojects/FSharp.TypeProviders.StarterPack src/ProvidedTypes.fsi
 github fsprojects/FSharp.TypeProviders.StarterPack src/ProvidedTypes.fs
+nuget FSharp.Core
 github fsprojects/FSharp.TypeProviders.StarterPack src/ProvidedTypesTesting.fs
