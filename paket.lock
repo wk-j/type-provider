@@ -1,0 +1,6 @@
+RESTRICTION: == netcoreapp2.0
+GITHUB
+  remote: fsprojects/FSharp.TypeProviders.StarterPack
+    src/ProvidedTypes.fs (3438c4817b4e25884169ee7be6182efa39995057)
+    src/ProvidedTypes.fsi (3438c4817b4e25884169ee7be6182efa39995057)
+    src/ProvidedTypesTesting.fs (3438c4817b4e25884169ee7be6182efa39995057)
