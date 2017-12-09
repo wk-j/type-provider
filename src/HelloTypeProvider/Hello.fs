@@ -1,5 +1,5 @@
-﻿open System
-open ProviderImplementation
+﻿namespace Hello 
+
 open ProviderImplementation.ProvidedTypes
 open Microsoft.FSharp.Core.CompilerServices
 open System.Reflection
@@ -22,8 +22,3 @@ type BasicProvider (config : TypeProviderConfig) as this =
 
 [<assembly:TypeProviderAssembly>]
 do ()
-
-[<EntryPoint>]
-let main argv =
-    printfn "Hello World from F#!"
-    0 // return an integer exit code
